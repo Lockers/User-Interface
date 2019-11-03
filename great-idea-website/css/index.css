@@ -54,47 +54,71 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	max-width: 950px;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
 	margin-bottom: 15px;
-	color: blue;
+	color: red;
 }
 
 /* Your code starts here! */
 
-.navigation{
-	display: inline-block;
-	text-align: center;
+.navigation {
 	width: 100%;
-	padding: 20px;
+	text-align: center;
+	padding: 10px;
 }
-a{
-	padding: 20px;
-	margin: 20px;
+a {
+	display: inline-block;
+	padding: 10px;
+	margin: 25px;
+	color: lightgray;
 	text-decoration: none;
 }
-.head{
+.logo {
 	display: inline-block;
-	width: 100%;
-	margin: 10px;
-	padding: 20px;
-	border-bottom: solid red;
+	margin-left: 30px;
+	height: 30px;
+	vertical-align: middle;
 }
-.header{
+.head {
+	margin: 30px 0px 30px 0px;
+	
+} 
+.header {
 	display: inline-block;
-	width: 35%;
-	padding: 40px;
-	margin: 10px;
-	font-size: 50px;
 	text-align: center;
+	vertical-align: top;
+	width: 47%;
+	font-size: 70px;
+	margin: 30px;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+.header button {
+	display: block;
+	margin: 10px auto;
+	width: 150px;
+	height: 25px;
+	background-color: white;
+}
+.codepic{
+	display: inline-block;
+	width: 47%;
+	height: 350px;
+	width: 350px;
+	margin-left: 30px;
+	margin-bottom: 30px;
 }
 
 .top-content{
 	display: inline-block;
+	border-top: 1px solid black;
 
 }
 .left-content{
@@ -112,14 +136,6 @@ a{
 	width: 45%;
 	height: 50px;
 	margin: 10px;
-}
-.codepic{
-	width: 45%;
-	display: inline-block;
-	padding: 50px;
-	margin: 10px;
-	text-align: center;
-
 }
 .left{
 	display: inline-block;
@@ -145,12 +161,12 @@ a{
 	margin: 10x;
 }
 .bottom-content{
-	border-bottom: solid red;
+	border-bottom: 1px solid black;
 }
 .middle-img{
-	width: 80%;
-	margin: 50px;
-	height: 150px;
+	width: 100%;
+	margin: 50px 0px 50px 0;
+
 }
 
 footer{
