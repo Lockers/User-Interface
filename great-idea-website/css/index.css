@@ -55,7 +55,7 @@ table {
 html, body {
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	max-width: 950px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -63,7 +63,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
 	margin-bottom: 15px;
-	color: red;
+	color: black;
+}
+.top-content p, .bottom-content p {
+	font-size:15px;
 }
 
 /* Your code starts here! */
@@ -76,7 +79,7 @@ h1, h2, h3, h4, h5 {
 a {
 	display: inline-block;
 	padding: 10px;
-	margin: 25px;
+	margin: 20px;
 	color: lightgray;
 	text-decoration: none;
 }
@@ -117,49 +120,27 @@ a {
 }
 
 .top-content{
-	display: inline-block;
 	border-top: 1px solid black;
 
 }
-.left-content{
-	display: inline-block;
-	text-align: center;
-	padding: 20px;
-	width: 45%;
-	height: 50px;
-	margin: 10px;
+h3 {
+	text-align: left;
 }
-.right-content{
+.left-content, .right-content{
 	display: inline-block;
-	text-align: center;
-	padding: 20px;
-	width: 45%;
+	text-align: justify;
+	width: 47.5%;
 	height: 50px;
-	margin: 10px;
-}
-.left{
-	display: inline-block;
-	text-align: center;
-	padding: 20px;
-	width: 30%;
-	margin: 10px;
+	margin: 20px 10px 10px 10px ;
 }
 
-.middle{
+.left, .middle, .right{
 	display: inline-block;
-	text-align: center;
-	padding: 20px 20px 20px 20px;
+	text-align: justify;
 	width: 30%;
-	margin: 10px;
+	margin: 10px 13px 20px 13px ;
 }
 
-.right{
-	display: inline-block;
-	text-align: center;
-	padding: 20px;
-	width: 30%;
-	margin: 10x;
-}
 .bottom-content{
 	border-bottom: 1px solid black;
 }
@@ -174,8 +155,12 @@ footer{
 	text-align: center;
 	padding: 20px;
 }
+h4 {
+	margin-top: 30px;
+}
 .contact {
-	text-align: left;
-	width: 200px;
-	margin: 10px;
+	margin: 20px 0 20px 0;
+}
+.phomail p{
+	margin: 10px 0 10px 0;
 }
